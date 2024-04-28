@@ -145,7 +145,7 @@ body {
 
 .avgStars .half-rated::before {
   content: '\f089';
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 50%;
 }
 
