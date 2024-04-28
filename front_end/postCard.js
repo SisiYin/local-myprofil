@@ -27,7 +27,7 @@ const renderingMyPosts = (myPostsData) => {
     const truncatedDescription = truncateInf(post.description, 100);
     const cardHTML = `
       <div class="card col-12 col-md-6 col-lg-4 mb-4">
-        <img src="./img/chicken-satay-salad-8f5b068.webp" class="card-img-top" alt="...">
+        <img src="./img/chicken-satay-salad-8f5b068.webp" class="card-img-top rounded" alt="...">
         <div class="card-body">
           <h5 class="card-title mt-4">${post.title}</h5>
           <p class="card-text" style="color: #777;">${timeSince(post.date)}</p>
