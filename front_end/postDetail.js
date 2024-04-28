@@ -128,7 +128,7 @@ submitRate.addEventListener("click",async function(event) {
 
 
 
-// 渲染评分函数
+// rendering stars when rating
 async function renderingVote() {
   vote = 0;
   for (let i = 0; i < 5; i++) {
